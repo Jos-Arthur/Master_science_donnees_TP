@@ -1,0 +1,24 @@
+####input your credentials here
+""" 
+    The following shows the use of the token 
+    for data collection on the social network Twitter!
+"""
+consumer_key = 'Y7eOVbjYWlAP4k6FZKbnDrvRH'
+consumer_secret = 'kaae85mzyjXCxrf0hcMgC4aTerBJrHPVYR6wQvf9ZwuljsDfWH'
+access_token = '1283183414221377537-GmXIyFKdhElR6FptUKNQAMerRtp3Ok'
+access_token_secret = 'F6xBi9soNq0PCno2tKIDgNTZkOqelsSARJgx6crMqORZL'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+api = tweepy.API(auth,wait_on_rate_limit=True)
+
+
+
+"""
+
+    The use of token for data collection on the social network Facebook!
+
+"""
+
+access_token_facebook = 'EAAEMoEaTd3wBAG6zbcby94XzlhCVdJE9bW0FK2kVOdxkWCZASAfrsPAOjplHqQZBNrDX77uAjvSX6Ek8A66dQJEBP7GVgaoVfkNGOPcUVdi9PMX9ZCKrfQeeB6OoofrokcU76yGnXmgT64B98OmNwZB4CcH8QkrcgfRp5O9jnZARTWmYO98gZAY4Ar83wb1sdkl3Ir2lCrW7lU4IfrjXugGQHr2ZBZBKRSf9LOwKGFNnuQZDZD'
+
